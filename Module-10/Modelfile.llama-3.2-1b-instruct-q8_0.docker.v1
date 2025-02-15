@@ -1,0 +1,12 @@
+## ===================================================
+## Modelfile.llama-3.2-1b-instruct-q8_0.docker.v1
+## Model ID in Ollama: llama-3.2-1b-instruct
+## Model Type: llm
+## ===================================================
+
+# Run docker with: 
+
+# (on host)
+# -v /home/ml/pretrained-models/llms:/root/llms
+
+FROM /root/llms/llama/llama-3.2-1b-instruct-q8_0.gguf

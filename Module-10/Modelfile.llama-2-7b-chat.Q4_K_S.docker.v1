@@ -1,0 +1,15 @@
+## ===================================================
+## Modelfile.llama-2-7b-chat.Q4_K_S.docker.v1
+## Model ID in Ollama: local-llama-2-7b-chat
+## Model Type: llm
+## ===================================================
+
+# Run docker with: 
+
+# (on assieoussou)
+# -v /home/ml/pretrained-models/llms:/root/llms
+
+# (on coocoti)
+# -v /data/ml/pre-trained-models/llms:/root/llms
+
+FROM /root/llms/llama/llama-2-7b-chat.Q4_K_S.gguf
